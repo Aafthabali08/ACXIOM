@@ -1,0 +1,24 @@
+# Build output
+bin/
+obj/
+TestResults/
+test-results/
+
+# Local database and Data Protection keys (never commit these)
+App_Data/
+*.db
+*.db-shm
+*.db-wal
+.env
+
+# Generated archives and outdated screenshots
+output/
+docs/dashboard.jpg
+
+# Editors and OS files
+.vs/
+.vscode/
+.idea/
+*.user
+.DS_Store
+__pycache__/
